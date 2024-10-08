@@ -5,7 +5,10 @@ header {
   left: 0;
   justify-content: space-around;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
+  position: fixed;
+  top: 0%;
+  color: white;
 
   justify-content: space-between;
 }
@@ -17,48 +20,40 @@ footer {
   justify-content: space-around;
   align-items: center;
   padding: 25px;
+  position: fixed;
+  bottom: 0%;
 }
 
 .homeImage {
   display: flex;
+  padding-top: 200px !important;
 }
 main {
-  padding-top: 200px;
-  padding-right: 100px;
-  padding-bottom: 200px;
-  padding-left: 100px;
-
   background-color: rgb(201, 68, 201);
+  margin-bottom:7%;
+  margin-top: 8%;
+  margin-left: 40px;
+  margin-right: 40px;
+
 }
 
 .PageOptions {
   text-align: right;
   padding-right: 50px;
 }
-h1 {
-  color: white;
-}
-/*.content{
-    background-color: aqua;
-    margin: 75%;
-}
-    */
+
 
 body {
   background-color: rgb(5, 5, 90);
 }
-p {
-  color: white;
-}
-li {
-    color: white;
-  }
+
 a {
   color: white;
 }
 .firstHobby {
   display: inline;
 }
-h2{
-    color: white;
+
+.content{
+    padding-bottom: 20px; 
 }
