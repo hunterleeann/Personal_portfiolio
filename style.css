@@ -26,22 +26,21 @@ footer {
 
 .homeImage {
   display: flex;
-  padding-top: 200px !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px;
 }
 main {
-  background-color: rgb(201, 68, 201);
-  margin-bottom:7%;
+  background-color: rgb(101, 5, 101);
+  margin-bottom: 7%;
   margin-top: 8%;
   margin-left: 40px;
   margin-right: 40px;
-
 }
 
 .PageOptions {
   text-align: right;
   padding-right: 50px;
 }
-
 
 body {
   background-color: rgb(5, 5, 90);
@@ -54,6 +53,16 @@ a {
   display: inline;
 }
 
-.content{
-    padding-bottom: 20px; 
+.Content {
+  padding-bottom: 250px !important;
+}
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  padding: 30%;
+  
 }
